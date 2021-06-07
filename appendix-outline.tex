@@ -1,0 +1,110 @@
+\chapter{Simulink}
+The contents...
+
+\chapter{Python Simulation}
+The contents...
+
+\chapter{Bill Of Material}
+\begin{table}[h]
+\centering
+\begin{tabular}{| l | l | c | c | r | }
+\hline
+Item & Description & Quantity & Units & Cost \\ 
+\hline
+\rowcolor{lightgray} Pulley &  Pulley & 1.0 &  Each &  15136.8 \\ 
+\rowcolor{lightgray} \tikzmark{Sh}Shell &  996.5 ID x 1856 Plate 4140 32mm & 1.0 &  Each &  3516.04 \\ 
+\hspace{0.3cm}  \tikzmark{PM19}PM00000019 &  Weld MIG & 25.6763 &  Kg &  1.2 \\ 
+\hspace{0.3cm}  \tikzmark{PM12}PM00000012 &  Weld MIG & 1.0135 &  Hr &  90.0 \\ 
+\hspace{0.3cm}  PM00000013 &  Weld Prep & 1.7373 &  Hr &  90.0 \\ 
+\hspace{0.3cm}  PM00000108 &  Plate 4140 32mm & 1483.0046 &  Kg &  2.15 \\ 
+\hspace{0.3cm}  PM00000010 &  Plate Roll & 0.5465 &  Hr &  90.0 \\ 
+\rowcolor{lightgray} EnddiskA &  996.5 x 355 x 70 Plate 1045 & 1.0 &  Each &  1445.32 \\ 
+\hspace{0.3cm}  PM00001024 &  Ring Backing 270 x 390 x 16 & 1.0 &  Each &  39.73 \\ 
+\hspace{0.3cm}  PM00000115 &  Plate 4140 70mm & 578.2036 &  Kg &  2.43\\ 
+\hspace{0.3cm}  PM00000020 &  Plasma Cutter & 0.2141 &  Hr &  1.0 \\ 
+\hspace{0.3cm}  PM00000021 &  Oxy Cutter & 0.5586 &  Hr &  1.0  \\ 
+\hspace{0.3cm}  PM00000133 &  Plate 1045 16mm & 17.2547 &  Kg &  2.29 \\
+\hline
+\tikz[remember picture] \foreach \i in {PM19,PM12} \draw[overlay] (pic cs:Sh) |- ([yshift=1.5mm]pic cs:\i);
+\end{tabular}
+\caption{Bill of Material}
+\label{tab:bill}
+\end{table}
+
+\chapter{Function}
+\begin{table}[ht]
+\centering
+    \begin{tabular}{ | l | l | l | p{5cm} |}
+    \hline
+    Day & Min Temp & Max Temp & Summary \\ \hline
+    Monday & 11C & 22C & A clear day with lots of sunshine.  
+    However, the strong breeze will bring down the temperatures. \\ \hline
+    Tuesday & 9C & 19C & Cloudy with rain, across many northern regions. Clear spells 
+    across most of Scotland and Northern Ireland, 
+    but rain reaching the far northwest. \\ \hline
+    Wednesday & 10C & 21C & Rain will still linger for the morning. 
+    Conditions will improve by early afternoon and continue 
+    throughout the evening. \\
+    \hline
+    \end{tabular}
+\caption{Functions used from Built in Libraries}
+\label{tab:function}
+\end{table}
+
+\begin{table}[ht]
+\centering
+    \begin{tabular}{ | l | l | l | p{5cm} |}
+    \hline
+    Day & Min Temp & Max Temp & Summary \\ \hline
+    Monday & 11C & 22C & A clear day with lots of sunshine.  
+    However, the strong breeze will bring down the temperatures. \\ \hline
+    Tuesday & 9C & 19C & Cloudy with rain, across many northern regions. Clear spells 
+    across most of Scotland and Northern Ireland, 
+    but rain reaching the far northwest. \\ \hline
+    Wednesday & 10C & 21C & Rain will still linger for the morning. 
+    Conditions will improve by early afternoon and continue 
+    throughout the evening. \\
+    \hline
+    \end{tabular}
+\caption{Functions used from Built in Libraries2}
+\label{tab:function2}
+\end{table}
+
+\begin{table}[ht]
+\centering
+    \begin{tabular}{ | l | l | l | p{5cm} |}
+    \hline
+    Day & Min Temp & Max Temp & Summary \\ \hline
+    Monday & 11C & 22C & A clear day with lots of sunshine.  
+    However, the strong breeze will bring down the temperatures. \\ \hline
+    Tuesday & 9C & 19C & Cloudy with rain, across many northern regions. Clear spells 
+    across most of Scotland and Northern Ireland, 
+    but rain reaching the far northwest. \\ \hline
+    Wednesday & 10C & 21C & Rain will still linger for the morning. 
+    Conditions will improve by early afternoon and continue 
+    throughout the evening. \\
+    \hline
+    \end{tabular}
+\caption{Functions used from Built in Libraries3}
+\label{tab:function3}
+\end{table}
+
+\begin{table}[ht]
+\centering
+    \begin{tabular}{ | l | l | l | p{5cm} |}
+    \hline
+    Day & Min Temp & Max Temp & Summary \\ \hline
+    Monday & 11C & 22C & A clear day with lots of sunshine.  
+    However, the strong breeze will bring down the temperatures. \\ \hline
+    Tuesday & 9C & 19C & Cloudy with rain, across many northern regions. Clear spells 
+    across most of Scotland and Northern Ireland, 
+    but rain reaching the far northwest. \\ \hline
+    Wednesday & 10C & 21C & Rain will still linger for the morning. 
+    Conditions will improve by early afternoon and continue 
+    throughout the evening. \\
+    \hline
+    \end{tabular}
+\caption{Functions used from Built in Libraries}
+\label{tab:structure}
+\end{table}
+
