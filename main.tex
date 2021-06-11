@@ -12,6 +12,9 @@
 \usepackage[overload]{textcase}
 \usepackage{color}
 \usepackage[nonumberlist,toc]{glossaries}
+\usepackage{longtable}
+\usepackage{threeparttablex} % for "ThreePartTable" environment
+\usepackage{booktabs}        % for well-spaced horizontal rules
 \usepackage{wrapfig}
 \usepackage{longtable}
 \usepackage{morefloats}
@@ -31,6 +34,13 @@
 
 \setcounter{secnumdepth}{3}
 \setcounter{tocdepth}{3}
+
+% python listing
+\lstset{language=Python}
+\lstset{frame=lines}
+\lstset{caption={Insert code directly in your document}}
+\lstset{label={lst:code_direct}}
+\lstset{basicstyle=\footnotesize}
 
 % Added to avoid windows and orphans
 \usepackage[all]{nowidow}
